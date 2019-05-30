@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body,
+html {
+  height: calc(100% -2em);
+  margin: 0;
+  font-family: "Montserrat";
+}
 body {
   background: #c565ce;
   background: -moz-linear-gradient(
@@ -16,4 +23,45 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c565ce', endColorstr='#0e50a0',GradientType=1 ); /* IE6-9 */
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+aside {
+  color: #fff;
+  display: grid;
+  grid-template-columns: auto 40px;
+  padding: 2em;
+}
+img {
+  width: 30px;
+  cursor: pointer;
+}
+figure {
+  margin: 0;
+}
+figcaption {
+  font-size: 1em;
+  font-weight: bold;
+}
+nav {
+  background: #fff;
+}
+.active {
+  position: absolute;
+  display: block;
+  background: #fff;
+  width: 50%;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  display: block;
 }
