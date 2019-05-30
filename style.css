@@ -1,0 +1,19 @@
+body {
+  background: #c565ce;
+  background: -moz-linear-gradient(
+    left,
+    #c565ce 30%,
+    #c565ce 30%,
+    #0e50a0 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #c565ce 30%,
+    #c565ce 30%,
+    #0e50a0 100%
+  );
+  background: linear-gradient(to right, #c565ce 30%, #c565ce 30%, #0e50a0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c565ce', endColorstr='#0e50a0',GradientType=1 ); /* IE6-9 */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
